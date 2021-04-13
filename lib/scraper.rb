@@ -50,4 +50,7 @@ end
 
 {"class"=>#<Nokogiri::XML::Attr:0x3fd0e50e1b04 name="class" value="inlineMobileLeft-2Yo002 imageTextBlockGrid3-2XAK6G">}
 
+# One last but important method to note is children. Adding children will return any child nodes nested inside this element. In this particular example, all that is contained is a text node, but this XML element can contain all types of XML elements, nested as children. On a webpage, an h2 HTML element may be nested within a div. When scraped, this relationship can be represented by having an XML object named "div" with a child XML object named "h2".
+
+# Nokogiri collects these objects into a hierarchical data structure, much like the nested arrays and hashes we've been building and manipulating for a while now. This structure allows us to iterate over an array of Nokogiri objects and use enumerators to grab the values of attributes and text.
 
