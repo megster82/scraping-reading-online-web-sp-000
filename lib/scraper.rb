@@ -40,4 +40,5 @@ end
 #When we use Nokogiri methods, we get XML elements in return. Looking at the output object, we can see it has a name, "h2". We can get this info directly by adding these to the end of our doc.css call:
 
   p doc.css("#2a778efd-1685-5ec6-9e5a-0843d6a88b7b .inlineMobileLeft-2Yo002.imageTextBlockGrid3-2XAK6G")[0].name
-# => "div"
+  # => "div"
+
