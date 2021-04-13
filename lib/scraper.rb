@@ -48,6 +48,6 @@ end
 
 ## Since this example doesn't have any attributes besides the CSS classes, we just get back the classes we already know:
 
-
+{"class"=>#<Nokogiri::XML::Attr:0x3fd0e50e1b04 name="class" value="inlineMobileLeft-2Yo002 imageTextBlockGrid3-2XAK6G">}
 
 
