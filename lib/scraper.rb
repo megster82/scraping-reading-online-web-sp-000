@@ -44,7 +44,7 @@ end
 
 ## This is the name of the XML element, not to be confused with the HTML attribute 'name' that can be assigned to elements. Those types of attributes can be accessed with .attributes. Using .attributes will return ids, names, and classes, but will also return other useful content like alt and src for images.
 
-
+p doc.css("#2a778efd-1685-5ec6-9e5a-0843d6a88b7b .inlineMobileLeft-2Yo002.imageTextBlockGrid3-2XAK6G")[0].attributes
 
 
 
